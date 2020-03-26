@@ -1,0 +1,16 @@
+{
+  "name": "kttest",
+  "version": "1.0.0",
+  "description": "docker build . -f .\\dev.Dockerfile -t nodedev\r #run image to create a container\r docker run -d --name mycontainernodedev nodedev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "momentjs": "^2.0.0"
+  }
+}
